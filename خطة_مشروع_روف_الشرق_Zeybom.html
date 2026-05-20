@@ -3,13 +3,12 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>خطة مشروع روف الشرق - Zeybom</title>
+<title>خطة مشروع روف الشرق - ZBOM</title>
 <style>
 * { margin:0; padding:0; box-sizing:border-box; }
 body {
   font-family: "Segoe UI", "Tahoma", Arial, sans-serif;
   direction: rtl;
-  /* تدرج لوني حيوي وعميق للخلفية */
   background: linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%);
   background-attachment: fixed;
   color: #F8FAFC;
@@ -18,7 +17,6 @@ body {
 }
 .wrap { max-width: 950px; margin: 0 auto; padding: 40px 28px 60px; }
 
-/* ── GLASSMORPHISM PANELS (تأثير الزجاج المليء بالحيوية) ── */
 .glass-panel {
   background: rgba(255, 255, 255, 0.05);
   border: 1px solid rgba(255, 255, 255, 0.15);
@@ -28,7 +26,6 @@ body {
   -webkit-backdrop-filter: blur(12px);
 }
 
-/* ── COVER ── */
 .cover {
   padding: 36px 32px 28px;
   margin-bottom: 28px;
@@ -42,11 +39,9 @@ body {
   border-bottom: 1px solid rgba(255, 255, 255, 0.15);
 }
 
-/* ── LOGOS ── */
 .logo-ruoff { 
   height: 90px; 
   object-fit: contain;
-  /* هذه الخاصية تخفي الخلفية السوداء لصورة الـ JPEG وتجعلها شفافة */
   mix-blend-mode: screen; 
 }
 .logo-twing { 
@@ -59,7 +54,6 @@ body {
 .cover-h1 { 
   font-size: 32px; 
   font-weight: 800; 
-  /* تدرج لوني للنص */
   background: linear-gradient(90deg, #FEE140 0%, #FA709A 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -70,7 +64,6 @@ body {
 .cover-meta-item .lbl { font-size: 12px; color: #94A3B8; margin-bottom: 4px; }
 .cover-meta-item .val { font-size: 15px; color: #F1F5F9; font-weight: 600; }
 
-/* ── STATS ── */
 .stats { display: flex; gap: 16px; margin-bottom: 24px; }
 .stat { 
   flex: 1; 
@@ -88,7 +81,6 @@ body {
 .stat-lbl { font-size: 13px; color: #CBD5E1; margin-top: 5px; font-weight: 500; display: block; }
 .stat-sub { font-size: 11px; color: #94A3B8; display: block; margin-top: 4px; }
 
-/* ── SECTION ── */
 .section { margin-bottom: 35px; }
 .sec-title {
   font-size: 16px;
@@ -102,7 +94,6 @@ body {
   margin-bottom: 20px;
 }
 
-/* ── PILLS (تدرجات لونية حيوية للأزرار/العلامات) ── */
 .pills { line-height: 2.6; }
 .pill {
   display: inline-block;
@@ -118,7 +109,6 @@ body {
 .pill-purple { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); box-shadow: 0 4px 10px rgba(118, 75, 162, 0.3); }
 .pill-gray { background: linear-gradient(135deg, #8e9eab 0%, #eef2f3 100%); color: #1e1b4b; box-shadow: 0 4px 10px rgba(142, 158, 171, 0.3); }
 
-/* ── FEATURES & PAGES ── */
 .grid { display: flex; flex-wrap: wrap; gap: 16px; margin-bottom: 16px;}
 .feat-box, .pg-box, .tl-box { 
   flex: 1; 
@@ -129,7 +119,6 @@ body {
 .feat-box h4, .pg-box h4, .tl-box h4 { font-size: 16px; font-weight: 700; color: #FFFFFF; margin-bottom: 8px; }
 .feat-box p { font-size: 13.5px; color: #CBD5E1; line-height: 1.6; }
 
-/* ── TREE ── */
 .tree-root-box {
   display: inline-block;
   background: linear-gradient(135deg, #FF416C, #FF4B2B);
@@ -170,12 +159,10 @@ body {
   background: rgba(56, 189, 248, 0.15); 
 }
 
-/* ── PAGE CARDS ── */
 .pg-url { font-size: 12px; color: #38BDF8; font-family: monospace; margin-bottom: 12px; display: block; }
 .pg-box ul, .tl-box ul { padding-right: 20px; }
 .pg-box li, .tl-box li { font-size: 13.5px; color: #CBD5E1; margin-bottom: 6px; }
 
-/* ── TIMELINE ── */
 .tl-item { margin-bottom: 16px; display: block; }
 .badge {
   display: inline-block; font-size: 12px; font-weight: 700;
@@ -188,7 +175,6 @@ body {
 .b-test { background: linear-gradient(135deg, #00b09b, #96c93d); box-shadow: 0 4px 10px rgba(150, 201, 61, 0.3);}
 .b-app { background: linear-gradient(135deg, #FF416C, #FF4B2B); box-shadow: 0 4px 10px rgba(255, 75, 43, 0.3);}
 
-/* ── PRICING ── */
 .price-table { width: 100%; border-collapse: collapse; font-size: 14px; }
 .price-table th {
   text-align: right; padding: 12px 16px;
@@ -212,12 +198,10 @@ body {
   border-radius: 6px; padding: 12px 16px; margin-top: 16px;
 }
 
-/* ── FUTURE ── */
 .future-box { padding: 20px; }
 .future-box h4 { font-size: 16px; font-weight: 700; color: #38BDF8; margin-bottom: 8px; }
 .future-box p { font-size: 14px; color: #E2E8F0; line-height: 1.7; }
 
-/* ── FOOTER ── */
 .footer {
   text-align: center; font-size: 13px; color: #94A3B8;
   border-top: 1px solid rgba(255,255,255,0.1); padding-top: 20px; margin-top: 40px;
@@ -239,7 +223,7 @@ body {
   </div>
   <div class="cover-agency">PREPARED BY T-WING AGENCY · خطة مشروع رسمية</div>
   <div class="cover-h1">خطة تطوير الموقع الإلكتروني</div>
-  <div class="cover-sub">RUOFF AL-SHARQ · ZEYBOM AGENCY · WEBSITE + MOBILE APP</div>
+  <div class="cover-sub">RUOFF AL-SHARQ · ZBOM AGENCY · WEBSITE + MOBILE APP</div>
   <div class="cover-meta">
     <div class="cover-meta-item"><div class="lbl">مدة التسليم</div><div class="val">43 يوم</div></div>
     <div class="cover-meta-item"><div class="lbl">التقنية</div><div class="val">Laravel Native</div></div>
@@ -290,7 +274,7 @@ body {
   <div class="grid">
     <div class="feat-box glass-panel">
       <h4>هيكل متعدد الوكالات</h4>
-      <p>الموقع باسم روف الشرق مع إمكانية إضافة وكالات مستقبلاً — Zeybom أولى الوكالات</p>
+      <p>الموقع باسم روف الشرق مع إمكانية إضافة وكالات مستقبلاً — ZBOM أولى الوكالات</p>
     </div>
     <div class="feat-box glass-panel">
       <h4>متجر إلكتروني متكامل</h4>
@@ -310,7 +294,7 @@ body {
     </div>
     <div class="feat-box glass-panel">
       <h4>بروفايل شركة دولي</h4>
-      <p>مشاريع Zeybom في السعودية والخليج والعالم لاستهداف المناقصات الكبرى</p>
+      <p>مشاريع ZBOM في السعودية والخليج والعالم لاستهداف المناقصات الكبرى</p>
     </div>
   </div>
 </div>
@@ -323,13 +307,13 @@ body {
     <div class="tree-branch-lbl">الوكالات</div>
     <div class="tree-leaves">
       <span class="tree-leaf tree-leaf-blue">/agencies</span>
-      <span class="tree-leaf tree-leaf-blue">/agencies/zeybom</span>
+      <span class="tree-leaf tree-leaf-blue">/agencies/zbom</span>
       <span class="tree-leaf">وكالات مستقبلية...</span>
     </div>
   </div>
 
   <div class="tree-branch">
-    <div class="tree-branch-lbl">المنتجات — Zeybom</div>
+    <div class="tree-branch-lbl">المنتجات — ZBOM</div>
     <div class="tree-leaves">
       <span class="tree-leaf tree-leaf-blue">/products</span>
       <span class="tree-leaf">/products?category=مطابخ</span>
@@ -365,7 +349,7 @@ body {
     <div class="tree-branch-lbl">عن الشركة</div>
     <div class="tree-leaves">
       <span class="tree-leaf tree-leaf-blue">/about</span>
-      <span class="tree-leaf">/why-zeybom</span>
+      <span class="tree-leaf">/why-zbom</span>
       <span class="tree-leaf">/certifications</span>
     </div>
   </div>
@@ -408,7 +392,7 @@ body {
       <span class="pg-url">roofalsharq.com/</span>
       <ul>
         <li>Hero Section — هوية روف الشرق</li>
-        <li>الوكالات المتاحة (Zeybom وغيرها)</li>
+        <li>الوكالات المتاحة (ZBOM وغيرها)</li>
         <li>أبرز المنتجات والعروض</li>
         <li>أحدث المشاريع المنفذة</li>
         <li>شهادات العملاء</li>
@@ -416,10 +400,10 @@ body {
       </ul>
     </div>
     <div class="pg-box glass-panel">
-      <h4>صفحة Zeybom</h4>
-      <span class="pg-url">roofalsharq.com/agencies/zeybom</span>
+      <h4>صفحة ZBOM</h4>
+      <span class="pg-url">roofalsharq.com/agencies/zbom</span>
       <ul>
-        <li>هوية Zeybom الكاملة + لوغو</li>
+        <li>هوية ZBOM الكاملة + لوغو</li>
         <li>قصة العلامة التجارية</li>
         <li>التصنيفات والمنتجات</li>
         <li>شهادات الجودة والاعتمادات</li>
